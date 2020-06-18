@@ -21,6 +21,7 @@ public class TestApplication {
 	}
 	@RequestMapping("/test")
 	public String test() {
-		return "This is a test!";
+		return "hello word!";
 	}
+	
 }
